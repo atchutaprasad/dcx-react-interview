@@ -11,3 +11,71 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.content {
+  padding: 20px;
+}
+
+.header {
+  padding: 10px;
+  background: #edf2f4;
+  border-bottom: 1px solid #999;
+}
+.header a {
+  color: #0072ff;
+  text-decoration: none;
+  margin-left: 20px;
+  margin-right: 5px;
+}
+.header a:hover {
+  color: #8a0f53;
+}
+.header small {
+  color: #666;
+}
+.header .active {
+  color: #2c7613;
+}
+
+.loginForm{
+  border: 1px solid #d2d2d2;
+  border-radius : 20px;
+  background-color: #ffffff;
+  box-shadow: 2px 2px 30px #c2c2c2;
+  padding: 40px 40px 10px 40px;
+  width:400px;
+  margin:0 auto;
+
+}
+.modal{
+  top:30%
+}
+
+.panel{
+  background-color:#f2f2f2;
+  border-radius:20px;
+  padding:25px;
+}
+
+.headerDashboard{
+  padding-bottom: 10px;
+}
+.maxFontSize{
+  padding-top:20px;
+  display:inline-block;
+  font-size:40px;
+  color:blue
+}
+.diskHeight{
+  height:150px
+}
+.extrreamRight{float:right;}
+.mt-10{margin-top:30px}
+.mg-r3{margin-right:20px;}
+.fontAwesomeIcons{float:right}
+.fontAwesomeLabel{display:block;}
+.listElement{margin:0px;padding:0px}
+.listElement li {list-style:none;margin-bottom: 10px; padding-top:15px;padding-bottom:15px;border-bottom:1px solid #c2c2c2}
+.fontAwesomeIcons span{margin-left:15px;}
+
